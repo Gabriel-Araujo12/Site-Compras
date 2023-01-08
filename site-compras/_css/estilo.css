@@ -1,0 +1,209 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Unbounded&display=swap');
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Elemento do Javascript */
+
+figure#js{
+    border: 3px #000000 solid;
+    margin: 30px 200px 50px 200px;
+}
+
+img#promocao{
+    width: 100%;
+    height: 380px;
+    margin-bottom: -4px;
+}
+
+/* Formatação do cabeçalho */
+
+header#cabecalho{
+    border-bottom: 6px #ff6219 solid;
+    height: 200px;
+    background-color: rgb(31, 31, 31);
+    margin: -30px -30px 0 -30px;
+}
+
+header#cabecalho h1{
+    font-family: 'Unbounded', cursive;
+    font-size: 32pt;
+    color: #ffffff;
+    padding-top: 75px;
+    padding-left: 330px;
+}
+
+header#cabecalho p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    position: absolute;
+    left: 1400px;
+    top: 70px;
+}
+
+header#cabecalho input#txtbusca{
+    border-radius: 20px;
+    height:40px;
+    width:450px;
+    position: absolute;
+    left: 820px;
+    top: 80px;
+}
+
+header#cabecalho img#imgbusca{
+    position: absolute;
+    left: 1240px;
+    top: 85px;  
+}
+
+/* Formatação do menu */
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+nav#menu li{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+nav#menu li:hover{
+    text-decoration: underline;
+}
+
+/* Formatação do corpo */
+
+section#corpo{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section#corpo h2#titulo{
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+/* Formatação do setor de mais vendidos */
+
+figure.ms ul{
+    list-style: none;
+}
+
+figure.ms li{
+    display: inline-block;
+}
+
+figure.ms img{
+    margin-left: 165px ;
+    margin-top: 30px;
+}
+
+figure.ms figcaption{
+    text-align: center;
+    margin-left: 150px;
+}
+
+/* Formatação do setor de smartphones */
+
+figure.celular ul{
+    list-style: none;
+}
+
+figure.celular li{
+    display: inline-block;
+}
+
+figure.celular img{
+    margin-left: 160px ;
+    margin-top: 30px;
+}
+
+figure.celular figcaption{
+    text-align: center;
+    margin-left: 140px;
+}
+
+/* Formatação do setor de smart tvs */
+
+figure.tv ul{
+    list-style: none;
+}
+
+figure.tv li{
+    display: inline-block;
+}
+
+figure.tv img{
+    margin-left: 150px ;
+    margin-top: 30px;
+}
+
+figure.tv figcaption{
+    text-align: center;
+    margin-left: 140px;
+}
+
+/* Formatação do setor de livros */
+
+figure.livro ul{
+    list-style: none;
+}
+
+figure.livro li{
+    display: inline-block;
+}
+
+figure.livro img{
+    margin-left: 200px ;
+    margin-top: 30px;
+}
+
+figure.livro figcaption{
+    text-align: center;
+    margin-left: 190px;
+}
+
+/* Formatação do rodapé */
+
+footer#rodape{
+    border-top: 6px #ff6219 solid;
+    background-color: #ececec;
+    height: 250px;
+    margin: 0 -30px -30px -30px;
+}
+
+footer#rodape p{
+    font-family: 'Unbounded', cursive;
+    font-size: 20pt;
+    color: black;
+    padding-top: 75px;
+    padding-left: 250px;
+}
+
+footer#rodape img#elemento1{
+    position: absolute;
+    right: 250px;
+}
+
+footer#rodape img#elemento2{
+    position: absolute;
+    right: 150px;
+}
+
+footer#rodape img#elemento3{
+    position: absolute;
+    right: 50px;
+}
